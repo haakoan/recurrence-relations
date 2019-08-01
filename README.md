@@ -80,7 +80,8 @@ fortran(simpler(t2))
 
 
 
-$\displaystyle \frac{\left(l + m\right) \left(2 l + 3\right) \left(\left(l - m\right) P{\left(l,m \right)} + \left(l + m - 1\right) P{\left(l - 2,m \right)}\right) + \left(2 l - 1\right) \left(\left(l - m + 2\right) P{\left(l + 2,m \right)} + \left(l + m + 1\right) P{\left(l,m \right)}\right) \left(l - m + 1\right)}{\left(2 l - 1\right) \left(2 l + 1\right) \left(2 l + 3\right)}$
+
+    '((l + m)*(2*l + 3)*((l - m)*I1(l, m) + (l + m - 1)*I1(l - 2, m)) + (2*l - 1)*((l - m + 2)*I1(l + 2, m) + (l + m + 1)*I1(l, m))*(l - m + 1))/((2*l - 1)*(2*l + 1)*(2*l + 3))'
 
 
 
