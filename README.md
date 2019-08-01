@@ -1,4 +1,5 @@
-
+# Recurrence relations for Associated Legendre polynomials
+Here you will find a jupyternotebook that calculates the Recurrence relations for Associated Legendre polynomials using regexp in python and sympy.
 
 ```python
 import sympy as sym
